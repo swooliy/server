@@ -1,0 +1,30 @@
+{
+    "name": "swooliy/server",
+    "description": "Swooliy server base on swoole.",
+    "keywords": [
+        "library",
+        "swoole",
+        "web service",
+        "http"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ney Chang",
+            "email": "zoobileg@gmail.com",
+            "homepage": "https://github.com/zairl23"
+        }
+    ],
+    "require": { 
+        "ext-swoole": "*"  
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Swooliy\\Server\\": "./src/Swooliy/Server/"
+        }
+    }
+}
